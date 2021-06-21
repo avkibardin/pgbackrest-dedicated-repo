@@ -332,7 +332,7 @@ SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 # в будни каждый час с 9:00 до 18:00 делать инкрементальный бэкап
-0 9-17       * * 1-5 pgbackrest pgbackrest --stanza=demo --type=incr backup
+0 9-18       * * 1-5 pgbackrest pgbackrest --stanza=demo --type=incr backup
 
 # каждую ночь делать полный бэкап
 0 2     * * *   pgbackrest pgbackrest --stanza=demo --type=full  backup
