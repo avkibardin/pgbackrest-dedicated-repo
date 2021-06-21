@@ -1,4 +1,3 @@
-# pgbackrest-dedicated-repo
 # Настройка резервного копирования кластеров PostgreSQL с помощью pgbackres.
 
 ## 1. Предварительные замечания.
